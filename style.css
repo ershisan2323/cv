@@ -1,0 +1,121 @@
+/* color palette https://colorhunt.co/palette/2763 */
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+    color: #00adb5;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #00adb5;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #393e46;
+}
+
+a {
+  color: #00adb5;
+  text-decoration: none;
+}
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #222831;
+  border-width: 7px;
+  width: 5%;
+}
+
+.top-container {
+  background-color: #222831;
+  position: relative;
+  padding-top: 100px;
+}
+
+.bottom-container {
+background-color: #222831;
+color: #eeeeee;
+padding: 3rem 0;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.heading2 {
+  font-weight: normal;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.monitor-img {
+  width:25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.camera-img {
+  width:25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-button {
+   -webkit-border-radius: 24px;
+   -moz-border-radius: 24px;
+   border-radius: 24px;
+   color: #FFFFFF;
+   font-family: Brush Script MT;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 16px;
+   background-color: #00ADB5;
+   -webkit-box-shadow: inset 1px 1px 20px 0 #0EC5CD;
+   -moz-box-shadow: inset 1px 1px 20px 0 #0EC5CD;
+   box-shadow: inset 1px 1px 20px 0 #0EC5CD;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin-top: 2rem;
+}
+
+.contact-button:hover {
+   background: #00ADB5;
+   border: solid #00AF91 1px;
+   -webkit-border-radius: 24px;
+   -moz-border-radius: 24px;
+   border-radius: 24px;
+   text-decoration: none;
+}
+
+.contact-me {
+  padding-bottom: 4rem;
+}
+
+.footer-link{
+  margin: auto 1.5rem;
+
+}
